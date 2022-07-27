@@ -1,0 +1,3529 @@
+{
+
+	"bugs": [
+		{
+			"id": "commonbutterfly",
+			"name_en": "Common butterfly",
+			"months_n": [
+				{"start": 1, "stop": 6},
+				{"start": 9, "stop": 12}
+			],
+			"months_s": [
+				{"start": 3, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 160
+		},
+		{
+			"id": "yellowbutterfly",
+			"name_en": "Yellow butterfly",
+			"months_n": [
+				{"start": 3, "stop": 6},
+				{"start": 9, "stop": 10}
+			],
+			"months_s": [
+				{"start": 3, "stop": 4},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 160
+		},
+		{
+			"id": "tigerbutterfly",
+			"name_en": "Tiger butterfly",
+			"months_n": [
+				{"start": 3, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 240
+		},
+		{
+			"id": "peacockbutterfly",
+			"name_en": "Peacock butterfly",
+			"months_n": [
+				{"start": 3, "stop": 6}
+			],
+			"months_s": [
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "Near hybrid flowers",
+			"price": 2500
+		},
+		{
+			"id": "commonbluebottle",
+			"name_en": "Common bluebottle",
+			"months_n": [
+				{"start": 4, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 300
+		},
+		{
+			"id": "paperkitebutterfly",
+			"name_en": "Paper kite butterfly",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 1000
+		},
+		{
+			"id": "greatpurpleemperor",
+			"name_en": "Great purple emperor",
+			"months_n": [
+				{"start": 5, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 3000
+		},
+		{
+			"id": "monarchbutterfly",
+			"name_en": "Monarch butterfly",
+			"months_n": [
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5}
+			],
+			"times": [
+				{"start": 4, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 140
+		},
+		{
+			"id": "emperorbutterfly",
+			"name_en": "Emperor butterfly",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 6, "stop": 9},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 6, "stop": 9},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 4000
+		},
+		{
+			"id": "agriasbutterfly",
+			"name_en": "Agrias butterfly",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 3000
+		},
+		{
+			"id": "rajahbrookesbirdwing",
+			"name_en": "Rajah Brooke's birdwing",
+			"months_n": [
+				{"start": 1, "stop": 2},
+				{"start": 4, "stop": 9},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 6, "stop": 8},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 2500
+		},
+		{
+			"id": "queenalexandrasbirdwing",
+			"name_en": "Queen Alexandra's birdwing",
+			"months_n": [
+				{"start": 5, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 16}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 4000
+		},
+		{
+			"id": "moth",
+			"name_en": "Moth",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 19, "stop": 24}
+			],
+			"location": "Flying",
+			"sublocation": "Near light sources",
+			"price": 130
+		},
+		{
+			"id": "atlasmoth",
+			"name_en": "Atlas moth",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 19, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 3000
+		},
+		{
+			"id": "madagascansunsetmoth",
+			"name_en": "Madagascan sunset moth",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 16}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 2500
+		},
+		{
+			"id": "longlocust",
+			"name_en": "Long locust",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 200
+		},
+		{
+			"id": "migratorylocust",
+			"name_en": "Migratory locust",
+			"months_n": [
+				{"start": 8, "stop": 11}
+			],
+			"months_s": [
+				{"start": 2, "stop": 5}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 600
+		},
+		{
+			"id": "ricegrasshopper",
+			"name_en": "Rice grasshopper",
+			"months_n": [
+				{"start": 8, "stop": 11}
+			],
+			"months_s": [
+				{"start": 2, "stop": 5}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 160
+		},
+		{
+			"id": "grasshopper",
+			"name_en": "Grasshopper",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 160
+		},
+		{
+			"id": "cricket",
+			"name_en": "Cricket",
+			"months_n": [
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 130
+		},
+		{
+			"id": "bellcricket",
+			"name_en": "Bell cricket",
+			"months_n": [
+				{"start": 9, "stop": 10}
+			],
+			"months_s": [
+				{"start": 3, "stop": 4}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 430
+		},
+		{
+			"id": "mantis",
+			"name_en": "Mantis",
+			"months_n": [
+				{"start": 3, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On flowers",
+			"sublocation": "",
+			"price": 430
+		},
+		{
+			"id": "orchidmantis",
+			"name_en": "Orchid mantis",
+			"months_n": [
+				{"start": 3, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On flowers",
+			"sublocation": "White",
+			"price": 2400
+		},
+		{
+			"id": "honeybee",
+			"name_en": "Honeybee",
+			"months_n": [
+				{"start": 3, "stop": 7}
+			],
+			"months_s": [
+				{"start": 1, "stop": 1},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "Near flowers",
+			"price": 200
+		},
+		{
+			"id": "wasp",
+			"name_en": "Wasp",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "In trees",
+			"sublocation": "Shake them",
+			"price": 2500
+		},
+		{
+			"id": "browncicada",
+			"name_en": "Brown cicada",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 250
+		},
+		{
+			"id": "robustcicada",
+			"name_en": "Robust cicada",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 300
+		},
+		{
+			"id": "giantcicada",
+			"name_en": "Giant cicada",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 500
+		},
+		{
+			"id": "walkercicada",
+			"name_en": "Walker cicada",
+			"months_n": [
+				{"start": 8, "stop": 9}
+			],
+			"months_s": [
+				{"start": 2, "stop": 3}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 400
+		},
+		{
+			"id": "eveningcicada",
+			"name_en": "Evening cicada",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 4, "stop": 8},
+				{"start": 16, "stop": 19}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 550
+		},
+		{
+			"id": "cicadashell",
+			"name_en": "Cicada shell",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 10
+		},
+		{
+			"id": "reddragonfly",
+			"name_en": "Red dragonfly",
+			"months_n": [
+				{"start": 9, "stop": 10}
+			],
+			"months_s": [
+				{"start": 3, "stop": 4}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 180
+		},
+		{
+			"id": "darnerdragonfly",
+			"name_en": "Darner dragonfly",
+			"months_n": [
+				{"start": 4, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 230
+		},
+		{
+			"id": "bandeddragonfly",
+			"name_en": "Banded dragonfly",
+			"months_n": [
+				{"start": 5, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 4500
+		},
+		{
+			"id": "damselfly",
+			"name_en": "Damselfly",
+			"months_n": [
+				{"start": 1, "stop": 2},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 8}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 500
+		},
+		{
+			"id": "firefly",
+			"name_en": "Firefly",
+			"months_n": [
+				{"start": 6, "stop": 6}
+			],
+			"months_s": [
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 19, "stop": 24}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 300
+		},
+		{
+			"id": "molecricket",
+			"name_en": "Mole cricket",
+			"months_n": [
+				{"start": 1, "stop": 5},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 11}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Underground",
+			"sublocation": "Dig where sound is loudest",
+			"price": 500
+		},
+		{
+			"id": "pondskater",
+			"name_en": "Pondskater",
+			"months_n": [
+				{"start": 5, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "On ponds and rivers",
+			"sublocation": "",
+			"price": 130
+		},
+		{
+			"id": "divingbeetle",
+			"name_en": "Diving beetle",
+			"months_n": [
+				{"start": 5, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 19}
+			],
+			"location": "On ponds and rivers",
+			"sublocation": "",
+			"price": 800
+		},
+		{
+			"id": "giantwaterbug",
+			"name_en": "Giant water bug",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 19, "stop": 24}
+			],
+			"location": "On ponds and rivers",
+			"sublocation": "",
+			"price": 2000
+		},
+		{
+			"id": "stinkbug",
+			"name_en": "Stinkbug",
+			"months_n": [
+				{"start": 3, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On flowers",
+			"sublocation": "",
+			"price": 120
+		},
+		{
+			"id": "manfacedstinkbug",
+			"name_en": "Man-faced stink bug",
+			"months_n": [
+				{"start": 3, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 19, "stop": 24}
+			],
+			"location": "On flowers",
+			"sublocation": "",
+			"price": 1000
+		},
+		{
+			"id": "ladybug",
+			"name_en": "Ladybug",
+			"months_n": [
+				{"start": 3, "stop": 6},
+				{"start": 10, "stop": 10}
+			],
+			"months_s": [
+				{"start": 4, "stop": 4},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 8, "stop": 17}
+			],
+			"location": "On flowers",
+			"sublocation": "",
+			"price": 200
+		},
+		{
+			"id": "tigerbeetle",
+			"name_en": "Tiger beetle",
+			"months_n": [
+				{"start": 2, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 8, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 1500
+		},
+		{
+			"id": "jewelbeetle",
+			"name_en": "Jewel beetle",
+			"months_n": [
+				{"start": 4, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On tree stumps",
+			"sublocation": "",
+			"price": 2400
+		},
+		{
+			"id": "violinbeetle",
+			"name_en": "Violin beetle",
+			"months_n": [
+				{"start": 5, "stop": 6},
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On tree stumps",
+			"sublocation": "",
+			"price": 450
+		},
+		{
+			"id": "citruslonghornedbeetle",
+			"name_en": "Citrus long-horned beetle",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On tree stumps",
+			"sublocation": "",
+			"price": 350
+		},
+		{
+			"id": "rosaliabatesibeetle",
+			"name_en": "Rosalia batesi beetle",
+			"months_n": [
+				{"start": 5, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On tree stumps",
+			"sublocation": "",
+			"price": 3000
+		},
+		{
+			"id": "blueweevilbeetle",
+			"name_en": "Blue weevil beetle",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 800
+		},
+		{
+			"id": "dungbeetle",
+			"name_en": "Dung beetle",
+			"months_n": [
+				{"start": 1, "stop": 2},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 6, "stop": 8}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "Rolling snowballs",
+			"price": 3000
+		},
+		{
+			"id": "earthboringdungbeetle",
+			"name_en": "Earth-boring dung beetle",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 300
+		},
+		{
+			"id": "scarabbeetle",
+			"name_en": "Scarab beetle",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 23, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 10000
+		},
+		{
+			"id": "dronebeetle",
+			"name_en": "Drone beetle",
+			"months_n": [
+				{"start": 6, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 200
+		},
+		{
+			"id": "goliathbeetle",
+			"name_en": "Goliath beetle",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 8000
+		},
+		{
+			"id": "sawstag",
+			"name_en": "Saw stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 2000
+		},
+		{
+			"id": "miyamastag",
+			"name_en": "Miyama stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 1000
+		},
+		{
+			"id": "giantstag",
+			"name_en": "Giant stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 23, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 10000
+		},
+		{
+			"id": "rainbowstag",
+			"name_en": "Rainbow stag",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 19, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 6000
+		},
+		{
+			"id": "cyclommatusstag",
+			"name_en": "Cyclommatus stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 8000
+		},
+		{
+			"id": "goldenstag",
+			"name_en": "Golden stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 12000
+		},
+		{
+			"id": "giraffestag",
+			"name_en": "Giraffe stag",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 12000
+		},
+		{
+			"id": "horneddynastid",
+			"name_en": "Horned dynastid",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 1350
+		},
+		{
+			"id": "hornedatlas",
+			"name_en": "Horned atlas",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 8000
+		},
+		{
+			"id": "hornedelephant",
+			"name_en": "Horned elephant",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 8000
+		},
+		{
+			"id": "hornedhercules",
+			"name_en": "Horned hercules",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 17, "stop": 24}
+			],
+			"location": "On Palm trees",
+			"sublocation": "",
+			"price": 12000
+		},
+		{
+			"id": "walkingstick",
+			"name_en": "Walking stick",
+			"months_n": [
+				{"start": 7, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5}
+			],
+			"times": [
+				{"start": 4, "stop": 8},
+				{"start": 17, "stop": 19}
+			],
+			"location": "On trees",
+			"sublocation": "",
+			"price": 600
+		},
+		{
+			"id": "walkingleaf",
+			"name_en": "Walking leaf",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Near trees",
+			"sublocation": "Disguised as furniture leaf",
+			"price": 600
+		},
+		{
+			"id": "bagworm",
+			"name_en": "Bagworm",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "In trees",
+			"sublocation": "Shake them",
+			"price": 600
+		},
+		{
+			"id": "ant",
+			"name_en": "Ant",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "Near spoiled turnups",
+			"price": 80
+		},
+		{
+			"id": "hermitcrab",
+			"name_en": "Hermit crab",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 19, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "On beach disguised as shells",
+			"price": 1000
+		},
+		{
+			"id": "wharfroach",
+			"name_en": "Wharf roach",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "On beach rocks",
+			"price": 200
+		},
+		{
+			"id": "fly",
+			"name_en": "Fly",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On trash items",
+			"sublocation": "",
+			"price": 60
+		},
+		{
+			"id": "mosquito",
+			"name_en": "Mosquito",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 17, "stop": 24}
+			],
+			"location": "Flying",
+			"sublocation": "",
+			"price": 130
+		},
+		{
+			"id": "flea",
+			"name_en": "Flea",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On villager's heads",
+			"sublocation": "",
+			"price": 70
+		},
+		{
+			"id": "snail",
+			"name_en": "Snail",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "On rocks and shrubs",
+			"sublocation": "When raining",
+			"price": 250
+		},
+		{
+			"id": "pillbug",
+			"name_en": "Pill bug",
+			"months_n": [
+				{"start": 1, "stop": 6},
+				{"start": 9, "stop": 12}
+			],
+			"months_s": [
+				{"start": 3, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 16},
+				{"start": 23, "stop": 24}
+			],
+			"location": "Rocks",
+			"sublocation": "Hit them",
+			"price": 250
+		},
+		{
+			"id": "centipede",
+			"name_en": "Centipede",
+			"months_n": [
+				{"start": 1, "stop": 6},
+				{"start": 9, "stop": 12}
+			],
+			"months_s": [
+				{"start": 3, "stop": 12}
+			],
+			"times": [
+				{"start": 16, "stop": 23}
+			],
+			"location": "Rocks",
+			"sublocation": "Hit them",
+			"price": 300
+		},
+		{
+			"id": "spider",
+			"name_en": "Spider",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 8},
+				{"start": 19, "stop": 24}
+			],
+			"location": "In trees",
+			"sublocation": "Shake them",
+			"price": 600
+		},
+		{
+			"id": "tarantula",
+			"name_en": "Tarantula",
+			"months_n": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 10}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 19, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 8000
+		},
+		{
+			"id": "scorpion",
+			"name_en": "Scorpion",
+			"months_n": [
+				{"start": 5, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 19, "stop": 24}
+			],
+			"location": "Ground",
+			"sublocation": "",
+			"price": 8000
+		}
+	],
+
+	"fish":
+	[
+		{
+			"id": "bitterling",
+			"name_en": "Bitterling",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 900,
+			"size": 1
+		},
+		{
+			"id": "palechub",
+			"name_en": "Pale chub",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 200,
+			"size": 0
+		},
+		{
+			"id": "cruciancarp",
+			"name_en": "Crucian carp",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 160,
+			"size": 1
+		},
+		{
+			"id": "dace",
+			"name_en": "Dace",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 240,
+			"size": 2
+		},
+		{
+			"id": "carp",
+			"name_en": "Carp",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 300,
+			"size": 3
+		},
+		{
+			"id": "koi",
+			"name_en": "Koi",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 4000,
+			"size": 3
+		},
+		{
+			"id": "goldfish",
+			"name_en": "Goldfish",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 1300,
+			"size": 0
+		},
+		{
+			"id": "popeyedgoldfish",
+			"name_en": "Pop-eyed goldfish",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 1300,
+			"size": 0
+		},
+		{
+			"id": "ranchugoldfish",
+			"name_en": "Ranchu goldfish",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 4500,
+			"size": 1
+		},
+		{
+			"id": "killifish",
+			"name_en": "Killifish",
+			"months_n": [
+				{"start": 4, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 300,
+			"size": 0
+		},
+		{
+			"id": "crawfish",
+			"name_en": "Crawfish",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 200,
+			"size": 1
+		},
+		{
+			"id": "softshelledturtle",
+			"name_en": "Soft-shelled turtle",
+			"months_n": [
+				{"start": 8, "stop": 9}
+			],
+			"months_s": [
+				{"start": 2, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 3750,
+			"size": 3
+		},
+		{
+			"id": "snappingturtle",
+			"name_en": "Snapping turtle",
+			"months_n": [
+				{"start": 4, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 21, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 5000,
+			"size": 3
+		},
+		{
+			"id": "tadpole",
+			"name_en": "Tadpole",
+			"months_n": [
+				{"start": 3, "stop": 7}
+			],
+			"months_s": [
+				{"start": 1, "stop": 1},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 100,
+			"size": 0
+		},
+		{
+			"id": "frog",
+			"name_en": "Frog",
+			"months_n": [
+				{"start": 5, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 120,
+			"size": 1
+		},
+		{
+			"id": "freshwatergoby",
+			"name_en": "Freshwater goby",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 400,
+			"size": 1
+		},
+		{
+			"id": "loach",
+			"name_en": "Loach",
+			"months_n": [
+				{"start": 3, "stop": 5}
+			],
+			"months_s": [
+				{"start": 9, "stop": 11}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 400,
+			"size": 1
+		},
+		{
+			"id": "catfish",
+			"name_en": "Catfish",
+			"months_n": [
+				{"start": 5, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 800,
+			"size": 3
+		},
+		{
+			"id": "giantsnakehead",
+			"name_en": "Giant snakehead",
+			"months_n": [
+				{"start": 6, "stop": 8}
+			],
+			"months_s": [
+				{"start": 6, "stop": 8}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 5500,
+			"size": 3
+		},
+		{
+			"id": "bluegill",
+			"name_en": "Bluegill",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 180,
+			"size": 1
+		},
+		{
+			"id": "yellowperch",
+			"name_en": "Yellow perch",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"months_s": [
+				{"start": 4, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 300,
+			"size": 2
+		},
+		{
+			"id": "blackbass",
+			"name_en": "Black bass",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 400,
+			"size": 3
+		},
+		{
+			"id": "tilapia",
+			"name_en": "Tilapia",
+			"months_n": [
+				{"start": 6, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 800,
+			"size": 2
+		},
+		{
+			"id": "pike",
+			"name_en": "Pike",
+			"months_n": [
+				{"start": 9, "stop": 12}
+			],
+			"months_s": [
+				{"start": 3, "stop": 6}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 1800,
+			"size": 3
+		},
+		{
+			"id": "pondsmelt",
+			"name_en": "Pond smelt",
+			"months_n": [
+				{"start": 1, "stop": 2},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 6, "stop": 8}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 400,
+			"size": 0
+		},
+		{
+			"id": "sweetfish",
+			"name_en": "Sweetfish",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 900,
+			"size": 2
+		},
+		{
+			"id": "cherrysalmon",
+			"name_en": "Cherry salmon",
+			"months_n": [
+				{"start": 3, "stop": 6},
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Clifftop",
+			"price": 800,
+			"size": 2
+		},
+		{
+			"id": "char",
+			"name_en": "Char",
+			"months_n": [
+				{"start": 3, "stop": 6},
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Clifftop",
+			"price": 3800,
+			"size": 2
+		},
+		{
+			"id": "goldentrout",
+			"name_en": "Golden trout",
+			"months_n": [
+				{"start": 3, "stop": 5},
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5},
+				{"start": 9, "stop": 11}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Clifftop",
+			"price": 15000,
+			"size": 2
+		},
+		{
+			"id": "stringfish",
+			"name_en": "Stringfish",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 6, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Clifftop",
+			"price": 15000,
+			"size": 4
+		},
+		{
+			"id": "salmon",
+			"name_en": "Salmon",
+			"months_n": [
+				{"start": 9, "stop": 9}
+			],
+			"months_s": [
+				{"start": 3, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Mouth",
+			"price": 700,
+			"size": 3
+		},
+		{
+			"id": "kingsalmon",
+			"name_en": "King salmon",
+			"months_n": [
+				{"start": 9, "stop": 9}
+			],
+			"months_s": [
+				{"start": 3, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Mouth",
+			"price": 1800,
+			"size": 3
+		},
+		{
+			"id": "mittencrab",
+			"name_en": "Mitten crab",
+			"months_n": [
+				{"start": 9, "stop": 11}
+			],
+			"months_s": [
+				{"start": 3, "stop": 5}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 2000,
+			"size": 1
+		},
+		{
+			"id": "guppy",
+			"name_en": "Guppy",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 1300,
+			"size": 0
+		},
+		{
+			"id": "nibblefish",
+			"name_en": "Nibble fish",
+			"months_n": [
+				{"start": 5, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 1500,
+			"size": 0
+		},
+		{
+			"id": "angelfish",
+			"name_en": "Angelfish",
+			"months_n": [
+				{"start": 5, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 3000,
+			"size": 1
+		},
+		{
+			"id": "betta",
+			"name_en": "Betta",
+			"months_n": [
+				{"start": 5, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 2500,
+			"size": 1
+		},
+		{
+			"id": "neontetra",
+			"name_en": "Neon tetra",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 500,
+			"size": 0
+		},
+		{
+			"id": "rainbowfish",
+			"name_en": "Rainbowfish",
+			"months_n": [
+				{"start": 5, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 9, "stop": 16}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 800,
+			"size": 0
+		},
+		{
+			"id": "piranha",
+			"name_en": "Piranha",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 9, "stop": 16},
+				{"start": 21, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 2500,
+			"size": 1
+		},
+		{
+			"id": "arowana",
+			"name_en": "Arowana",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 10000,
+			"size": 3
+		},
+		{
+			"id": "dorado",
+			"name_en": "Dorado",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 21}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 15000,
+			"size": 3
+		},
+		{
+			"id": "gar",
+			"name_en": "Gar",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Pond",
+			"sublocation": "",
+			"price": 6000,
+			"size": 4
+		},
+		{
+			"id": "arapaima",
+			"name_en": "Arapaima",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 10000,
+			"size": 4
+		},
+		{
+			"id": "saddledbichir",
+			"name_en": "Saddled bichir",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 21, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "",
+			"price": 4000,
+			"size": 3
+		},
+		{
+			"id": "sturgeon",
+			"name_en": "Sturgeon",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 9, "stop": 12}
+			],
+			"months_s": [
+				{"start": 3, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "River",
+			"sublocation": "Mouth",
+			"price": 10000,
+			"size": 4
+		},
+		{
+			"id": "seabutterfly",
+			"name_en": "Sea butterfly",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 6, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 1000,
+			"size": 0
+		},
+		{
+			"id": "seahorse",
+			"name_en": "Seahorse",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 1100,
+			"size": 0
+		},
+		{
+			"id": "clownfish",
+			"name_en": "Clownfish",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 650,
+			"size": 0
+		},
+		{
+			"id": "surgeonfish",
+			"name_en": "Surgeonfish",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 1000,
+			"size": 1
+		},
+		{
+			"id": "butterflyfish",
+			"name_en": "Butterfly fish",
+			"months_n": [
+				{"start": 4, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 1000,
+			"size": 1
+		},
+		{
+			"id": "napoleonfish",
+			"name_en": "Napoleonfish",
+			"months_n": [
+				{"start": 7, "stop": 8}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2}
+			],
+			"times": [
+				{"start": 4, "stop": 21}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 10000,
+			"size": 4
+		},
+		{
+			"id": "zebraturkeyfish",
+			"name_en": "Zebra turkeyfish",
+			"months_n": [
+				{"start": 4, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 10, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 500,
+			"size": 2
+		},
+		{
+			"id": "blowfish",
+			"name_en": "Blowfish",
+			"months_n": [
+				{"start": 1, "stop": 2},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 8}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 21, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 5000,
+			"size": 2
+		},
+		{
+			"id": "pufferfish",
+			"name_en": "Puffer fish",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 250,
+			"size": 2
+		},
+		{
+			"id": "anchovy",
+			"name_en": "Anchovy",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 4, "stop": 21}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 200,
+			"size": 1
+		},
+		{
+			"id": "horsemackerel",
+			"name_en": "Horse mackerel",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 150,
+			"size": 1
+		},
+		{
+			"id": "barredknifejaw",
+			"name_en": "Barred knifejaw",
+			"months_n": [
+				{"start": 3, "stop": 11}
+			],
+			"months_s": [
+				{"start": 1, "stop": 5},
+				{"start": 9, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 5000,
+			"size": 2
+		},
+		{
+			"id": "seabass",
+			"name_en": "Sea bass",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 400,
+			"size": 3
+		},
+		{
+			"id": "redsnapper",
+			"name_en": "Red snapper",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 3000,
+			"size": 3
+		},
+		{
+			"id": "dab",
+			"name_en": "Dab",
+			"months_n": [
+				{"start": 1, "stop": 4},
+				{"start": 10, "stop": 12}
+			],
+			"months_s": [
+				{"start": 4, "stop": 10}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 300,
+			"size": 2
+		},
+		{
+			"id": "oliveflounder",
+			"name_en": "Olive flounder",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 800,
+			"size": 3
+		},
+		{
+			"id": "squid",
+			"name_en": "Squid",
+			"months_n": [
+				{"start": 1, "stop": 8},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 2},
+				{"start": 6, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 500,
+			"size": 2
+		},
+		{
+			"id": "morayeel",
+			"name_en": "Moray eel",
+			"months_n": [
+				{"start": 8, "stop": 10}
+			],
+			"months_s": [
+				{"start": 2, "stop": 4}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 2000,
+			"size": 5
+		},
+		{
+			"id": "ribboneel",
+			"name_en": "Ribbon eel",
+			"months_n": [
+				{"start": 6, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 600,
+			"size": 5
+		},
+		{
+			"id": "tuna",
+			"name_en": "Tuna",
+			"months_n": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 10}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "Pier",
+			"price": 7000,
+			"size": 4
+		},
+		{
+			"id": "bluemarlin",
+			"name_en": "Blue marlin",
+			"months_n": [
+				{"start": 1, "stop": 4},
+				{"start": 7, "stop": 9},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 5, "stop": 10}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "Pier",
+			"price": 10000,
+			"size": 4
+		},
+		{
+			"id": "gianttrevally",
+			"name_en": "Giant trevally",
+			"months_n": [
+				{"start": 5, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "Pier",
+			"price": 4500,
+			"size": 3
+		},
+		{
+			"id": "mahimahi",
+			"name_en": "Mahi-mahi",
+			"months_n": [
+				{"start": 5, "stop": 10}
+			],
+			"months_s": [
+				{"start": 1, "stop": 4},
+				{"start": 11, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "Pier",
+			"price": 6000,
+			"size": 4
+		},
+		{
+			"id": "oceansunfish",
+			"name_en": "Ocean sunfish",
+			"months_n": [
+				{"start": 7, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3}
+			],
+			"times": [
+				{"start": 4, "stop": 21}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 4000,
+			"size": 6
+		},
+		{
+			"id": "ray",
+			"name_en": "Ray",
+			"months_n": [
+				{"start": 8, "stop": 11}
+			],
+			"months_s": [
+				{"start": 2, "stop": 5}
+			],
+			"times": [
+				{"start": 4, "stop": 21}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 3000,
+			"size": 3
+		},
+		{
+			"id": "sawshark",
+			"name_en": "Saw shark",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 12000,
+			"size": 6
+		},
+		{
+			"id": "hammerheadshark",
+			"name_en": "Hammerhead shark",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 8000,
+			"size": 6
+		},
+		{
+			"id": "greatwhiteshark",
+			"name_en": "Great white shark",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 15000,
+			"size": 6
+		},
+		{
+			"id": "whaleshark",
+			"name_en": "Whale shark",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 13000,
+			"size": 6
+		},
+		{
+			"id": "suckerfish",
+			"name_en": "Suckerfish",
+			"months_n": [
+				{"start": 6, "stop": 9}
+			],
+			"months_s": [
+				{"start": 1, "stop": 3},
+				{"start": 12, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 1500,
+			"size": 6
+		},
+		{
+			"id": "footballfish",
+			"name_en": "Football fish",
+			"months_n": [
+				{"start": 1, "stop": 3},
+				{"start": 11, "stop": 12}
+			],
+			"months_s": [
+				{"start": 5, "stop": 9}
+			],
+			"times": [
+				{"start": 0, "stop": 9},
+				{"start": 16, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 2500,
+			"size": 3
+		},
+		{
+			"id": "oarfish",
+			"name_en": "Oarfish",
+			"months_n": [
+				{"start": 1, "stop": 5},
+				{"start": 12, "stop": 12}
+			],
+			"months_s": [
+				{"start": 6, "stop": 11}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 9000,
+			"size": 4
+		},
+		{
+			"id": "barreleye",
+			"name_en": "Barreleye",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 4},
+				{"start": 21, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "",
+			"price": 15000,
+			"size": 1
+		},
+		{
+			"id": "coelacanth",
+			"name_en": "Coelacanth",
+			"months_n": [
+				{"start": 1, "stop": 12}
+			],
+			"months_s": [
+				{"start": 1, "stop": 12}
+			],
+			"times": [
+				{"start": 0, "stop": 24}
+			],
+			"location": "Sea",
+			"sublocation": "When raining",
+			"price": 15000,
+			"size": 4
+		}
+	],
+
+
+
+	"seacreatures": [
+	{
+		"id": "seaweed",
+		"name_en": "Seaweed",
+		"months_n": [
+			{"start": 1, "stop": 7},
+			{"start": 10, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 1},
+			{"start": 4, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Stationary",
+		"price": 600,
+		"size": "Large"
+	},
+	{
+		"id": "seagrapes",
+		"name_en": "Sea grapes",
+		"months_n": [
+			{"start": 6, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3},
+			{"start": 12, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Stationary",
+		"price": 900,
+		"size": "Medium"
+	},
+	{
+		"id": "seacucumber",
+		"name_en": "Sea cucumber",
+		"months_n": [
+			{"start": 1, "stop": 4},
+			{"start": 11, "stop": 12}
+		],
+		"months_s": [
+			{"start": 5, "stop": 10}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 500,
+		"size": "Medium"
+	},
+	{
+		"id": "seapig",
+		"name_en": "Sea pig",
+		"months_n": [
+			{"start": 1, "stop": 2},
+			{"start": 11, "stop": 12}
+		],
+		"months_s": [
+			{"start": 5, "stop": 8}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Long Lunges",
+		"price": 8000,
+		"size": "Medium"
+	},
+	{
+		"id": "seastar",
+		"name_en": "Sea star",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Short Lunges",
+		"price": 500,
+		"size": "Medium"
+	},
+	{
+		"id": "seaurchin",
+		"name_en": "Sea urchin",
+		"months_n": [
+			{"start": 5, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3},
+			{"start": 11, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 1700,
+		"size": "Medium"
+	},
+	{
+		"id": "slatepencilurchin",
+		"name_en": "Slate pencil urchin",
+		"months_n": [
+			{"start": 5, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3},
+			{"start": 11, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Medium Consistent Movement",
+		"price": 2000,
+		"size": "Large"
+	},
+	{
+		"id": "seaanemone",
+		"name_en": "Sea anemone",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Stationary",
+		"price": 600,
+		"size": "Large"
+	},
+	{
+		"id": "moonjellyfish",
+		"name_en": "Moon jellyfish",
+		"months_n": [
+			{"start": 7, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 600,
+		"size": "Small"
+	},
+	{
+		"id": "seaslug",
+		"name_en": "Sea slug",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 600,
+		"size": "Small"
+	},
+	{
+		"id": "pearloyster",
+		"name_en": "Pearl oyster",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Moderate Long Lunges",
+		"price": 2800,
+		"size": "Medium"
+	},
+	{
+		"id": "mussel",
+		"name_en": "Mussel",
+		"months_n": [
+			{"start": 6, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 6},
+			{"start": 12, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 1500,
+		"size": "Small"
+	},
+	{
+		"id": "oyster",
+		"name_en": "Oyster",
+		"months_n": [
+			{"start": 1, "stop": 2},
+			{"start": 9, "stop": 12}
+		],
+		"months_s": [
+			{"start": 3, "stop": 8}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 2000,
+		"size": ""
+	},
+	{
+		"id": "scallop",
+		"name_en": "Scallop",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Long Lunges",
+		"price": 1200,
+		"size": "Large"
+	},
+	{
+		"id": "whelk",
+		"name_en": "Whelk",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 1000,
+		"size": "Medium"
+	},
+	{
+		"id": "turbanshell",
+		"name_en": "Turban shell",
+		"months_n": [
+			{"start": 3, "stop": 5},
+			{"start": 9, "stop": 12}
+		],
+		"months_s": [
+			{"start": 3, "stop": 6},
+			{"start": 9, "stop": 11}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow",
+		"price": 800,
+		"size": "Medium"
+	},
+	{
+		"id": "abalone",
+		"name_en": "Abalone",
+		"months_n": [
+			{"start": 1, "stop": 1},
+			{"start": 6, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 7},
+			{"start": 12, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Moderate Consistent Movement",
+		"price": 2000,
+		"size": "Large"
+	},
+	{
+		"id": "gigasgiantclam",
+		"name_en": "Gigas giant clam",
+		"months_n": [
+			{"start": 5, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3},
+			{"start": 11, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Short Lunges",
+		"price": 15000,
+		"size": "Large"
+	},
+	{
+		"id": "chamberednautilus",
+		"name_en": "Chambered nautilus",
+		"months_n": [
+			{"start": 3, "stop": 6},
+			{"start": 9, "stop": 11}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow",
+		"price": 1440,
+		"size": "Large"
+	},
+	{
+		"id": "octopus",
+		"name_en": "Octopus",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Long Lunges",
+		"price": 1200,
+		"size": "Large"
+	},
+	{
+		"id": "umbrellaoctopus",
+		"name_en": "Umbrella octopus",
+		"months_n": [
+			{"start": 3, "stop": 5},
+			{"start": 9, "stop": 11}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Short Lunges",
+		"price": 0,
+		"size": "Medium"
+	},
+	{
+		"id": "vampiresquid",
+		"name_en": "Vampire squid",
+		"months_n": [
+			{"start": 5, "stop": 8}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick",
+		"price": 10000,
+		"size": "Medium"
+	},
+	{
+		"id": "fireflysquid",
+		"name_en": "Firefly squid",
+		"months_n": [
+			{"start": 3, "stop": 6}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 21, "stop": 24},
+			{"start": 0, "stop": 4}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 0,
+		"size": ""
+	},
+	{
+		"id": "gazamicrab",
+		"name_en": "Gazami crab",
+		"months_n": [
+			{"start": 6, "stop": 11}
+		],
+		"months_s": [
+			{"start": 1, "stop": 5},
+			{"start": 12, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 2200,
+		"size": "Large"
+	},
+	{
+		"id": "dungenesscrab",
+		"name_en": "Dungeness crab",
+		"months_n": [
+			{"start": 1, "stop": 5},
+			{"start": 11, "stop": 12}
+		],
+		"months_s": [
+			{"start": 5, "stop": 11}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 0,
+		"size": ""
+	},
+	{
+		"id": "snowcrab",
+		"name_en": "Snow crab",
+		"months_n": [
+			{"start": 1, "stop": 4},
+			{"start": 11, "stop": 12}
+		],
+		"months_s": [
+			{"start": 5, "stop": 10}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Short Lunges",
+		"price": 6000,
+		"size": ""
+	},
+	{
+		"id": "redkingcrab",
+		"name_en": "Red king crab",
+		"months_n": [
+			{"start": 1, "stop": 3},
+			{"start": 11, "stop": 12}
+		],
+		"months_s": [
+			{"start": 5, "stop": 9}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick",
+		"price": 8000,
+		"size": "Large"
+	},
+	{
+		"id": "acornbarnacle",
+		"name_en": "Acorn barnacle",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Stationary",
+		"price": 600,
+		"size": "Small"
+	},
+	{
+		"id": "spidercrab",
+		"name_en": "Spider crab",
+		"months_n": [
+			{"start": -1, "stop": -1}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick",
+		"price": 0,
+		"size": "Large"
+	},
+	{
+		"id": "tigerprawn",
+		"name_en": "Tiger prawn",
+		"months_n": [
+			{"start": 6, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3},
+			{"start": 12, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Moderate Consistent Movement",
+		"price": 3000,
+		"size": "Small"
+	},
+	{
+		"id": "sweetshrimp",
+		"name_en": "Sweet shrimp",
+		"months_n": [
+			{"start": 1, "stop": 2},
+			{"start": 9, "stop": 12}
+		],
+		"months_s": [
+			{"start": 3, "stop": 8}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 0,
+		"size": ""
+	},
+	{
+		"id": "mantisshrimp",
+		"name_en": "Mantis shrimp",
+		"months_n": [
+			{"start": 1, "stop": 12}
+		],
+		"months_s": [
+			{"start": 1, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Short Lunges",
+		"price": 2500,
+		"size": "Medium"
+	},
+	{
+		"id": "spinylobster",
+		"name_en": "Spiny lobster",
+		"months_n": [
+			{"start": 10, "stop": 12}
+		],
+		"months_s": [
+			{"start": -1, "stop": -1}
+		],
+		"times": [
+			{"start": 21, "stop": 24},
+			{"start": 0, "stop": 4}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 0,
+		"size": ""
+	},
+	{
+		"id": "lobster",
+		"name_en": "Lobster",
+		"months_n": [
+			{"start": -1, "stop": -1}
+		],
+		"months_s": [
+			{"start": 6, "stop": 7},
+			{"start": 10, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick",
+		"price": 4500,
+		"size": "Large"
+	},
+	{
+		"id": "giantisopod",
+		"name_en": "Giant isopod",
+		"months_n": [
+			{"start": 7, "stop": 10}
+		],
+		"months_s": [
+			{"start": 7, "stop": 10}
+		],
+		"times": [
+			{"start": 0, "stop": 4},
+			{"start": 9, "stop": 16},
+			{"start": 21, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Long Lunges",
+		"price": 12000,
+		"size": "Medium"
+	},
+	{
+		"id": "horseshoecrab",
+		"name_en": "Horseshoe Crab",
+		"months_n": [
+			{"start": 7, "stop": 9}
+		],
+		"months_s": [
+			{"start": 1, "stop": 3}
+		],
+		"times": [
+			{"start": 21, "stop": 24},
+			{"start": 0, "stop": 4}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "",
+		"price": 2500,
+		"size": ""
+	},
+	{
+		"id": "seapineapple",
+		"name_en": "Sea pineapple",
+		"months_n": [
+			{"start": 4, "stop": 8}
+		],
+		"months_s": [
+			{"start": 1, "stop": 2},
+			{"start": 10, "stop": 12}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Long Lunges",
+		"price": 1500,
+		"size": "Medium"
+	},
+	{
+		"id": "spottedgardeneel",
+		"name_en": "Spotted garden eel",
+		"months_n": [
+			{"start": 5, "stop": 10}
+		],
+		"months_s": [
+			{"start": 1, "stop": 4},
+			{"start": 11, "stop": 12}
+		],
+		"times": [
+			{"start": 4, "stop": 21}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Consistent Movement",
+		"price": 1100,
+		"size": "Small"
+	},
+	{
+		"id": "flatworm",
+		"name_en": "Flatworm",
+		"months_n": [
+			{"start": 8, "stop": 9}
+		],
+		"months_s": [
+			{"start": 2, "stop": 3}
+		],
+		"times": [
+			{"start": 0, "stop": 9},
+			{"start": 16, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Slow Short Movement",
+		"price": 700,
+		"size": "Small"
+	},
+	{
+		"id": "venusflowerbasket",
+		"name_en": "Venus' flower basket",
+		"months_n": [
+			{"start": 1, "stop": 2},
+			{"start": 10, "stop": 12}
+		],
+		"months_s": [
+			{"start": 4, "stop": 8}
+		],
+		"times": [
+			{"start": 0, "stop": 24}
+		],
+		"location": "Bottom of the Ocean",
+		"sublocation": "Quick Long Lunges",
+		"price": 5000,
+		"size": "Large"
+	}
+
+
+	],
+}

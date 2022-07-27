@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166663032-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-166663032-1');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CJ's Anglin' - A Real-time Fish/Bug Tracker for AC: New Horizons</title>
+  <meta name="description" content="See the best fishing spots and what's available to catch on your island right now!">
+  <meta property="og:image" content="/assets/img/preview.jpg" />
+  <meta name="author" content="Ryan West">
+  <link rel="shortcut icon" href="/assets/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="/assets/lib/stroke-7/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/perfect-scrollbar/css/perfect-scrollbar.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/datatables/datatables.net-bs4/css/dataTables.bootstrap4.css" />
+  <link rel="stylesheet" href="/assets/css/app.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/cjsanglin.css?519435" type="text/css" />
+</head>
+
+<body class="bg-sand">
+  <div class="mai-wrapper">
+    <nav class="navbar navbar-expand-lg mai-sub-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <button class="navbar-toggler hidden-md-up collapsed" type="button" data-toggle="collapse" data-target="#mai-navbar-collapse" aria-controls="mai-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"> <span
+              class="icon-bar"><span></span><span></span><span></span></span></button>
+          <div class="navbar-collapse collapse mai-nav-tabs" id="mai-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item parent"><a class="nav-link" href="/" role="button" aria-expanded="false"><span class="icon s7-anchor"></span><span>CJ's Anglin'</span></a>
+                <ul class="mai-nav-tabs-sub mai-sub-nav nav">
+                  <li class="nav-item"><a class="nav-link" href="/north"><span class="icon s7-up-arrow"></span><span class="name">Northern Hemisphere</span></a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="/south"><span class="icon s7-bottom-arrow"></span><span class="name">Southern Hemisphere</span></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <div class="main-content container">
+      <div class="row">
+        <div class="col-md-9">
+
+
+
+          <div class="tab-container mb-5">
+            <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+              <span class="title">Completion Tracker:</span><span class="float-right mt-2"><button class="btn btn-space btn-dark btn-xs save-button text-primary"> <i class="icon icon-left s7-refresh"></i>
+                  Save</button></span><span class="card-subtitle">Tap to mark as collected.</span>
+            </div>
+            <ul class="nav nav-tabs bg-gray" role="tablist">
+              <li class="nav-item"><a class="nav-link round-top ml-4" href="#bugs-tracker" data-toggle="tab" role="tab">Bugs</a></li>
+              <li class="nav-item"><a class="nav-link round-top active" href="#fish-tracker" data-toggle="tab" role="tab">Fish</a></li>
+              <li class="nav-item"><a class="nav-link round-top" href="#seacreatures-tracker" data-toggle="tab" role="tab">Sea creatures</a></li>
+            </ul>
+            <div class="tab-content p-0">
+              <div class="tab-pane" id="bugs-tracker" role="tabpanel">
+                <div class="card bg-sand">
+                  <div class="card-body p-1 bg-light">
+                    <div class="table-responsive noSwipe">
+                      <table class="table table-sm mb-0" id="bugs-tracker-table">
+                        <thead>
+                        </thead>
+                        <tbody id="bugs-tracker-tbody">
+                          <tr class="justify-content-center flex-nowrap" id="bugs-tracker-row0"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="bugs-tracker-row1"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="bugs-tracker-row2"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="bugs-tracker-row3"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="bugs-tracker-row4"></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane active" id="fish-tracker" role="tabpanel">
+                <div class="card bg-sand">
+                  <div class="card-body p-1 bg-light">
+                    <div class="table-responsive noSwipe">
+                      <table class="table table-sm mb-0" id="fish-tracker-table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                          <tr class="justify-content-center flex-nowrap" id="fish-tracker-row0"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="fish-tracker-row1"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="fish-tracker-row2"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="fish-tracker-row3"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="fish-tracker-row4"></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="seacreatures-tracker" role="tabpanel">
+                <div class="card bg-sand">
+                  <div class="card-body p-1 bg-light">
+                    <div class="table-responsive noSwipe">
+                      <table class="table table-sm mb-0" id="seacreatures-tracker-table">
+                        <thead>
+                        </thead>
+                        <tbody id="seacreatures-tracker-tbody">
+                          <tr class="justify-content-center flex-nowrap" id="seacreatures-tracker-row0"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="seacreatures-tracker-row1"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="seacreatures-tracker-row2"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="seacreatures-tracker-row3"></tr>
+                          <tr class="justify-content-center flex-nowrap" id="seacreatures-tracker-row4"></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-container mb-5">
+            <div class="card mb-0 bg-sand">
+              <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+                <span class="title">Available Right Now:</span><span class="card-subtitle">Based on current time and month</span>
+              </div>
+            </div>
+            <ul class="nav nav-tabs bg-gray" role="tablist">
+              <li class="nav-item"><a class="nav-link round-top ml-4" href="#bugs-active-all" data-toggle="tab" role="tab">Bugs</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#bugs-active-flying" data-toggle="tab" role="tab">Flying</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#bugs-active-ground" data-toggle="tab" role="tab">Ground</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#bugs-active-other" data-toggle="tab" role="tab">Other</a></li>
+              <li class="nav-item"><a class="nav-link round-top active" href="#fish-active-all" data-toggle="tab" role="tab">Fish</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#fish-active-sea" data-toggle="tab" role="tab">Sea</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#fish-active-river" data-toggle="tab" role="tab">River</a></li>
+              <li class="nav-item"><a class="nav-link round-top d-none" href="#fish-active-pond" data-toggle="tab" role="tab">Pond</a></li>
+              <li class="nav-item"><a class="nav-link round-top" href="#seacreatures-active-all" data-toggle="tab" role="tab">Sea Creatures</a></li>
+            </ul>
+
+
+            <div class="tab-content p-0">
+              <div class="tab-pane" id="bugs-active-all" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-2" id="bugs-active-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="bugs-active-all-tbody" class="">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="bugs-active-flying" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-2" id="bugs-active-flying-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="bugs-active-flying-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="bugs-active-ground" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-2" id="bugs-active-ground-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="bugs-active-ground-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="bugs-active-other" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-2" id="bugs-active-other-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="bugs-active-other-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane active" id="fish-active-all" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-3" id="fish-active-all-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="fish-active-all-tbody" class="">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="fish-active-sea" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-3" id="fish-active-sea-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="fish-active-sea-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="fish-active-river" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-3" id="fish-active-river-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="fish-active-river-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="fish-active-pond" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-3" id="fish-active-pond-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="fish-active-pond-tbody">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="seacreatures-active-all" role="tabpanel">
+                <div class="table-responsive noSwipe">
+                  <table class="table table-sm sort-3" id="seacreatures-active-all-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                        <th>Months</th>
+                      </tr>
+                    </thead>
+                    <tbody id="seacreatures-active-all-tbody" class="">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-container mb-5">
+            <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+              <li class="nav-item nav-item-color-primary"><a class="nav-link round-top ml-4 active" href="#fish-later" data-toggle="tab" role="tab"><span class="icon s7-anchor"></span> Fish</a></li>
+              <li class="nav-item"><a class="nav-link round-top" href="#bugs-later" data-toggle="tab" role="tab"><span class="icon s7-leaf"></span> Bugs</a></li>
+            </ul>
+            <div class="tab-content p-0">
+              <div class="tab-pane active" id="fish-later" role="tabpanel">
+                <div class="card mb-0 bg-sand">
+                  <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+                    <span class="title">Available Later:</span>
+                  </div>
+                </div>
+                <div class="tab-container mb-5">
+                  <ul class="nav nav-tabs bg-gray" role="tablist">
+                    <li class="nav-item nav-item-color-primary"><a class="nav-link round-top ml-4 active" href="#fish-inactive" data-toggle="tab" role="tab"><span class="icon s7-clock"></span> Later Today</a></li>
+                    <li class="nav-item"><a class="nav-link round-top" href="#fish-unavailable" data-toggle="tab" role="tab"><span class="icon s7-date"></span> Later this Year</a></li>
+                  </ul>
+                  <div class="tab-content p-0">
+                    <div class="tab-pane active" id="fish-inactive" role="tabpanel">
+                      <div class="table-responsive noSwipe">
+                        <table class="table table-sm sort-3" id="fish-inactive-table">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Size</th>
+                              <th>Location</th>
+                              <th>Price</th>
+                              <th>Times</th>
+                              <th>Months</th>
+                            </tr>
+                          </thead>
+                          <tbody id="fish-inactive-tbody">
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="fish-unavailable" role="tabpanel">
+                      <div class="table-responsive noSwipe">
+                        <table class="table table-sm sort-3" id="fish-unavailable-table">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Size</th>
+                              <th>Location</th>
+                              <th>Price</th>
+                              <th>Times</th>
+                              <th>Months</th>
+                            </tr>
+                          </thead>
+                          <tbody id="fish-unavailable-tbody">
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="bugs-later" role="tabpanel">
+                <div class="card mb-0 bg-sand">
+                  <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+                    <span class="title">Available Later:</span>
+                  </div>
+                </div>
+                <div class="tab-container mb-5">
+                  <ul class="nav nav-tabs bg-gray" role="tablist">
+                    <li class="nav-item nav-item-color-primary"><a class="nav-link round-top ml-4 active" href="#bugs-inactive" data-toggle="tab" role="tab"><span class="icon s7-clock"></span> Later Today</a></li>
+                    <li class="nav-item"><a class="nav-link round-top" href="#bugs-unavailable" data-toggle="tab" role="tab"><span class="icon s7-date"></span> Later this Year</a></li>
+                  </ul>
+                  <div class="tab-content p-0">
+                    <div class="tab-pane active" id="bugs-inactive" role="tabpanel">
+                      <div class="table-responsive noSwipe">
+                        <table class="table table-sm sort-2" id="bugs-inactive-table">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Location</th>
+                              <th>Price</th>
+                              <th>Times</th>
+                              <th>Months</th>
+                            </tr>
+                          </thead>
+                          <tbody id="bugs-inactive-tbody">
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="bugs-unavailable" role="tabpanel">
+                      <div class="table-responsive noSwipe">
+                        <table class="table table-sm sort-2" id="bugs-unavailable-table">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Location</th>
+                              <th>Price</th>
+                              <th>Times</th>
+                              <th>Months</th>
+                            </tr>
+                          </thead>
+                          <tbody id="bugs-unavailable-tbody">
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card bg-sand">
+            <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+              <span class="title">Last Chance To Catch:</span><span class="card-subtitle">These will be unavailable in <span class="next-month">Next Month</span></span>
+            </div>
+            <div class="table-responsive noSwipe">
+              <table class="table table-sm sort-0 bg-light" id="featured-leaving">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Active</th>
+                  </tr>
+                </thead>
+                <tbody id="featured-leaving-tbody">
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card bg-sand">
+            <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+              <span class="title">New This Month:</span>
+            </div>
+            <div class="table-responsive noSwipe">
+              <table class="table table-sm sort-0 bg-light" id="featured-new">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Active</th>
+                  </tr>
+                </thead>
+                <tbody id="featured-new-tbody">
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card bg-sand">
+            <div class="card-header card-header-color card-header-color-primary py-3 round-top">
+              <span class="title">About CJ's Anglin'</span>
+            </div>
+            <div class="card-body bg-light">
+              <p>CJ's Anglin' is a fish and bug database for Animal Crossing: New Horizons.</p>
+              <p>The lists on this site are updated every hour to show which fish or bugs are available right now based on your local time zone. Both Northern and Southern regions are supported.</p>
+              <p>The Completion Tracker can be used to highlight critters in the list that you have or need to catch. Tapping the icon next to a fish or bugs name in the lists will also mark it as collected.</p>
+              <p>No account is needed to use the tracker. All the tracker data is stored in your browsers cache.</p>
+              <p>This site also works on mobile and will never contain advertisements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"> <span class="copy">&copy; 2020 </span><span>Ryan West</span></div>
+    </div>
+  </div>
+  <script src="/assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+  <script src="/assets/js/app.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net/js/jquery.dataTables.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-bs4/js/dataTables.bootstrap4.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons/js/dataTables.buttons.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons/js/buttons.html5.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons/js/buttons.flash.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons/js/buttons.print.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons/js/buttons.colVis.min.js" type="text/javascript"></script>
+  <script src="/assets/lib/datatables/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js" type="text/javascript"></script>
+  <script src="/assets/js/app-tables-datatables.js" type="text/javascript"></script>
+  <script src="/assets/js/cjsanglin.js?5.18.12.44" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //-initialize the javascript
+      App.init();
+      //App.dataTables();
+    });
+  </script>
+</body>
+
+</html>

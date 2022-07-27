@@ -1,0 +1,55 @@
+.fishicon {
+  width: 48px;
+  height: 48px;
+}
+
+.crittericon {
+  width: 40px;
+  height: 40px;
+}
+
+.bg-sand {
+  background-color: #ffe4b3;
+}
+
+.bg-gray {
+  background-color: #8ae6c1;
+}
+
+.round-top {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.round-right {
+  border-radius: 0px 30px 0px 0px;
+}
+
+td > span > a {
+  color: #27ac77;
+}
+
+.table tbody tr td.user-avatar img {
+  height: 30px;
+  width: 30px;
+  -border-radius: 100%;
+  margin-right: 10px;
+}
+
+.table tbody tr td.check-avatar img {
+  height: 20px;
+  width: 20px;
+  -border-radius: 100%;
+  margin-right: 10px;
+}
+
+.table tbody tr.success td:first-child {
+  -border-left: 3px solid #2cc185;
+  border-left: 10px solid #2cc185;
+  padding-left: 17px;
+}
+
+.table tbody tr.danger td:first-child {
+  -border-left: 3px solid #F45846;
+  border-left: 10px solid #F45846;
+  padding-left: 17px;
+}
