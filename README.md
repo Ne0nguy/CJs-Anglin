@@ -10,3 +10,6 @@ The lists on this site are updated every hour to show which fish or bugs are ava
 The Completion Tracker can be used to highlight critters in the list that you have or need to catch. Tapping the icon next to a fish or bugs name in the lists will also mark it as collected.
 
 No account is needed to use the tracker. All the tracker data is stored in your browsers cache.
+
+### Requirements
+https://themes.getbootstrap.com/product/maisonnette-responsive-admin-template/
